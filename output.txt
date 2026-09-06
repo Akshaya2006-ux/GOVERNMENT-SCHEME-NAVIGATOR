@@ -1,0 +1,193 @@
+PS C:\Users\Kmoha\government-scheme-agent> python -m app.main
+====================================
+     GOVERNMENT SCHEME TRACKER
+====================================
+
+Ask me about government schemes.
+You can describe your situation naturally.
+Type 'exit' to quit.
+
+You:
+> i am girl studied in government school now studying UG
+
+🧠 GEMINI: Understanding your request...
+Direct use of automatic function calling (AFC) in Models.generate_content is not recommended. Instead, we recommend to use AFC in Chat.send_message. Similarly, direct use of AFC in Models.generate_content_stream is not recommended. Instead, we recommend to use AFC in Chat.send_message_stream.
+
+📋 Gemini extracted:
+```json
+{
+    "goal": "Find government schemes for education",
+    "age": null,
+    "gender": "Female",
+    "state": null,
+    "occupation": "Student",
+    "income": null,
+    "category": null,
+    "education_level": "Undergraduate",
+    "studied_government_school": true
+}
+```
+
+🧠 GEMINI ACTION:
+```json
+{
+    "action": "search_schemes"
+}
+```
+
+🔎 ACTION: Searching government schemes...
+
+🌐 Connecting to Tamil Nadu Government website...
+🔗 https://www.tn.gov.in/schemes.php
+✅ Government website accessed successfully.
+📋 OBSERVATION: Found 0 candidate schemes.
+
+Agent:
+Hello! It is great that you are pursuing your Undergraduate (UG) degree after studying in a government school. 
+
+**Eligibility Status:**
+Your exact eligibility for specific government schemes **cannot be fully confirmed yet** because key details like your **State**, **Family Income**, and **Category** are missing.
+
+---
+
+### Potential Schemes & Benefits
+Depending on your state and degree, you may be eligible for major schemes such as:
+
+1. **Pudhumai Penn Scheme (Moovalur Ramamirtham Ammiyar Scheme - Tamil Nadu):**
+   * **Benefit:** Gives **₹1,000 per month** directly into your bank account until you complete your UG degree.
+   * *General Requirement:* Female students who studied in Government schools from Classes 6 to 12.
+
+2. **AICTE Pragati Scholarship Scheme for Girl Students:**
+   * **Benefit:** Gives **₹50,000 per year** to cover college fees, books, and other expenses.
+   * *General Requirement:* Girls pursuing technical UG degrees (like B.E., B.Tech, or Architecture).
+
+3. **Post-Matric / Central Sector Scholarships (NSP):**
+   * **Benefit:** Annual financial support or tuition fee waivers based on merit and income criteria.
+
+---
+
+### Important Documents Generally Required
+To apply for these scholarships, keep the following documents ready:
+* **Aadhaar Card**
+* **10th and 12th Marksheets / Transfer Certificate** (to prove you studied in a government school)
+* **College Admission Proof / Bonafide Certificate / College ID Card**
+* **Income Certificate** (issued by a competent authority)
+* **Caste / Community Certificate** (if applicable)
+* **Bank Account Details** (linked with your Aadhaar)
+
+---
+
+### Please Provide Missing Details
+To help me narrow down the exact schemes available for you, please tell me:
+1. **Which State** do you live/study in?
+2. What is your **Family's Annual Income**?
+3. What is your **Category** (General, SC, ST, OBC, EWS)?
+4. What specific **UG course** are you studying (e.g., B.A., B.Sc., B.Tech, MBBS)?
+
+You:
+> i am from tamilnadu income is 120000 i learn b tech 
+
+🧠 GEMINI: Understanding your request...
+
+📋 Gemini extracted:
+```json
+{
+    "goal": null,
+    "age": null,
+    "gender": null,
+    "state": "Tamil Nadu",
+    "occupation": "Student",
+    "income": 120000,
+    "category": null,
+    "education_level": "B.Tech",
+    "studied_government_school": null
+}
+```
+
+🧠 GEMINI ACTION:
+```json
+{
+    "action": "search_schemes"
+}
+```
+
+🔎 ACTION: Searching government schemes...
+
+🌐 Connecting to Tamil Nadu Government website...
+🔗 https://www.tn.gov.in/schemes.php
+✅ Government website accessed successfully.
+📋 OBSERVATION: Found 1 candidate schemes.
+
+Agent:
+Hello! Thank you for sharing your details. 
+
+Based on the information provided (State: Tamil Nadu, Education: B.Tech, Annual Family Income: ₹1,20,000), **your exact eligibility for specific scholarship schemes cannot be confirmed yet.** 
+
+To help us narrow down the exact government scholarships or fee waiver schemes you qualify for, please share a few missing details:
+
+---
+
+### **Missing Information Needed:**
+1. **Community / Category:** Are you SC, ST, BC, MBC, DNC, Minority, or General?
+2. **Gender:** (Some schemes, such as *Pudhumai Penn*, are specifically for female students).
+3. **Schooling Details:** Did you study in Tamil Nadu Government Schools from Standards 6 to 12?
+4. **First Generation Graduate Status:** Are you the first person in your immediate family to pursue a graduation/degree?
+
+---
+
+### **Potential Government Schemes in Tamil Nadu for B.Tech Students**
+Depending on your answers above, you may qualify for one or more of the following popular Tamil Nadu state schemes:
+
+1. **Post-Matric Scholarship Scheme (SC / ST / BC / MBC / Minority):**
+   * **Benefit:** Covers maintenance allowance and educational fees for eligible higher education students.
+2. **First Generation Graduate Fee Concession:**
+   * **Benefit:** Tuition fee concession/waiver for students who are the first in their family to attend college (admitted through single-window counseling).
+3. **Pudhumai Penn Scheme (Moovalur Ramamirtham Ammiyar Scheme):**
+   * **Benefit:** Financial assistance of **₹1,000 per month** for female students who studied in Tamil Nadu Government schools from Class 6 to 12 and are pursuing higher education.
+
+---
+
+### **Important Documents Generally Required:**
+To apply for most Tamil Nadu higher education scholarship schemes, you will typically need:
+* **Income Certificate** (Issued by Revenue Department/e-Seva, confirming your annual income of ₹1,20,000)
+* **Community Certificate**
+* **Aadhaar Card** (Linked to your bank account)
+* **10th & 12th Mark Sheets / College Allotment Order**
+* **Bonafide Certificate** from your B.Tech College
+* **First Generation Graduate Certificate** (if applying for tuition fee concession)
+* **Bank Passbook Details**
+
+---
+
+### **Official Source:**
+You can also explore official government schemes directly on the official portal:  
+🔗 [Tamil Nadu Government Official Schemes Portal](https://www.tn.gov.in/schemes.php)
+
+*Please reply with your **Category**, **Gender**, and **School background**, and I will gladly help identify the right scheme for you!*
+
+You:
+> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
