@@ -26,7 +26,7 @@ Instead of requiring users to search through schemes manually, the agent follows
 
 ---
 
-# 🤖 Key Features
+# Key Features
 
 ### 1. Natural Language Understanding
 
